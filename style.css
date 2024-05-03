@@ -16,4 +16,66 @@ font-weight: 700;
 
 /* -------------------------------------------------- */
 
+body{
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 1140px;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+h1{
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.upoutavka {
+    font-size: 18px;
+    color:#a5a5a5;
+}
+.banner-text .tlacitko{
+    background-color: #3498db;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+.banner-text .minitext,
+.hlavicka-vpravo {
+    font-size: 13px;
+}
+.hlavicka-vpravo .menu-tlacitka{
+    font-weight: 600;
+}
+.hlavicka-vpravo li {
+    list-style-type: none;
+}
+.hlavicka-vpravo .menu a{
+    text-decoration: none;
+    color: #959595;
+    text-transform: uppercase;
+}
+.hlavicka-vpravo .menu{
+    display: flex;
+    justify-content:space-between;
+}
 
+.menu-tlacitka .tlacitko.tlacitko-primarni{
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+}
+.menu-tlacitka .tlacitko.tlacitko-sekundarni{
+    text-decoration: none;
+    color: black;
+}
+.uvod {
+    background-color:#f5f5f5f5 ;
+    display: flex;
+}
+.uvod img{
+    max-width: 100%;
+}
