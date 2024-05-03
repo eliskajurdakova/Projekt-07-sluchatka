@@ -21,6 +21,7 @@ body{
     font-size: 15px;
     line-height: 1.5;
     max-width: 1140px;
+    margin: 0 auto;
 }
 h2{
     font-family: 'Rubik', sans-serif;
@@ -35,13 +36,20 @@ h1{
     font-size: 18px;
     color:#a5a5a5;
 }
+/*-------nemění-----------------*/
 .banner-text .tlacitko{
     background-color: #3498db;
-    border-radius: 2px;
+    border-radius: 3px;
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
     color: white;
+    display: inline-block;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    padding: 7px;
+    
 }
 .banner-text .minitext,
 .hlavicka-vpravo {
@@ -53,28 +61,51 @@ h1{
 .hlavicka-vpravo li {
     list-style-type: none;
 }
+.hlavicka-vpravo ul {
+    margin-bottom: 2em;
+}
 .hlavicka-vpravo .menu a{
     text-decoration: none;
     color: #959595;
     text-transform: uppercase;
 }
+/*-------nemění-----------------*/
 .hlavicka-vpravo .menu{
     display: flex;
     justify-content:space-between;
+}
+.hlavicka-vlevo .logo {
+    width: 15%;
 }
 
 .menu-tlacitka .tlacitko.tlacitko-primarni{
     text-decoration: none;
     background-color: #3498db;
     color: white;
+    border-radius: 3px;
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0.5em;
 }
 .menu-tlacitka .tlacitko.tlacitko-sekundarni{
     text-decoration: none;
     color: black;
+    border-radius: 3%;
+    border: 2px solid black;
+    display: block;
+    width: 160px;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
 }
+
 .uvod {
     background-color:#f5f5f5f5 ;
-    display: flex;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 .uvod img{
     max-width: 100%;
