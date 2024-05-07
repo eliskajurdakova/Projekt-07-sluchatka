@@ -112,6 +112,10 @@ h1{
 .uvod img{
     max-width: 100%;
 }
+.banner-foto{
+    display: flex;
+    align-items: flex-end;
+}
 /*-------začátek spodní části--------------*/
 
 .vlastnosti p {
@@ -157,4 +161,63 @@ h1{
 .paticka-menu a {
     text-decoration: none;
     color: white;
+}
+
+/*-------------media------*/
+
+/* @media(min-width:540px){
+    
+
+
+
+
+
+
+} */
+
+
+
+@media(min-width:960px){
+    .uvod{
+        padding-inline: 70px;
+        padding-top: 50px;
+    }
+    .vlastnosti{
+        margin: 50px;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .paticka{
+        padding: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .vlastnost{
+        flex-basis: calc(100% / 2);
+    }
+    .banner {
+        display: flex;
+    }
+    .hlavicka {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu li {
+        padding-right:1em;
+    }
+    .hlavicka-vlevo .logo {
+        width: 40%;
+    }
+    .hlavicka-vpravo{
+        display: flex;
+    }
+    .menu-tlacitka{
+        display: flex;  
+    } 
+    h1,
+    .upoutavka {
+        max-width: 420px;
+    }
+   
 }
