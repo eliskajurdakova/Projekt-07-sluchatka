@@ -179,7 +179,7 @@ h1{
 
 @media(min-width:960px){
     .uvod{
-        padding-inline: 70px;
+        padding-inline: 50px;
         padding-top: 50px;
     }
     .vlastnosti{
@@ -204,7 +204,7 @@ h1{
         justify-content: space-between;
     }
     .menu li {
-        padding-right:1em;
+        padding-right:0.5em;
     }
     .hlavicka-vlevo .logo {
         width: 40%;
