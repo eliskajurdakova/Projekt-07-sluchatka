@@ -213,7 +213,7 @@ h1{
         display: flex;
     }
     .menu-tlacitka{
-        display: flex;  
+        display: flex; 
     } 
     h1,
     .upoutavka {
@@ -221,6 +221,9 @@ h1{
     }
     .menu-tlacitka .tlacitko.tlacitko-primarni{
         margin-right: 0.5em;
+    }
+    .menu-tlacitka .tlacitko.tlacitko-primarni{
+        align-self: center;
     }
    
 }
