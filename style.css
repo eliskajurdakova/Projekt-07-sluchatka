@@ -204,7 +204,7 @@ h1{
         justify-content: space-between;
     }
     .menu li {
-        padding-right:0.5em;
+        padding-right: 1em;
     }
     .hlavicka-vlevo .logo {
         width: 40%;
@@ -218,6 +218,9 @@ h1{
     h1,
     .upoutavka {
         max-width: 420px;
+    }
+    .menu-tlacitka .tlacitko.tlacitko-primarni{
+        margin-right: 0.5em;
     }
    
 }
