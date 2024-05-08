@@ -51,7 +51,7 @@ h1{
     padding: 7px;
     
 }
-.banner-text .minitext,
+.minitext,
 .hlavicka-vpravo {
     font-size: 13px;
 }
@@ -78,7 +78,7 @@ h1{
     width: 15%;
 }
 
-.menu-tlacitka .tlacitko.tlacitko-primarni{
+.tlacitko-primarni{
     text-decoration: none;
     background-color: #3498db;
     color: white;
@@ -90,7 +90,7 @@ h1{
     padding: 5px;
     margin-bottom: 0.5em;
 }
-.menu-tlacitka .tlacitko.tlacitko-sekundarni{
+.tlacitko-sekundarni{
     text-decoration: none;
     color: black;
     border-radius: 3%;
@@ -219,11 +219,14 @@ h1{
     .upoutavka {
         max-width: 420px;
     }
-    .menu-tlacitka .tlacitko.tlacitko-primarni{
+    .tlacitko.tlacitko-primarni{
         margin-right: 0.5em;
     }
-    .menu-tlacitka .tlacitko.tlacitko-primarni{
+    .tlacitko.tlacitko-primarni{
         align-self: center;
     }
+    /* .menu-tlacitka .tlacitko.tlacitko-sekundární{
+        align-self: center;
+    } */
    
 }
