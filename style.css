@@ -26,6 +26,7 @@ body{
 h2{
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
+    font-size: 15px;
 }
 h1{
     font-size: 44px;
@@ -183,7 +184,7 @@ h1{
         padding-top: 50px;
     }
     .vlastnosti{
-        margin: 50px;
+        /* margin: 50px; */
         display: flex;
         flex-wrap: wrap; 
     }
@@ -213,20 +214,30 @@ h1{
         display: flex;
     }
     .menu-tlacitka{
-        display: flex; 
+        display: flex;
+        align-self: center; 
     } 
     h1,
     .upoutavka {
         max-width: 420px;
     }
-    .tlacitko.tlacitko-primarni{
+    .tlacitko-primarni{
         margin-right: 0.5em;
+        margin-bottom: 0;
     }
-    .tlacitko.tlacitko-primarni{
-        align-self: center;
+    .hlavicka-vpravo ul {
+        margin-bottom: 1.5em;
     }
-    /* .menu-tlacitka .tlacitko.tlacitko-sekundární{
-        align-self: center;
-    } */
+    .vlastnost {
+        display: flex;
+        align-items: start;
+    }
+    .vlastnost img{
+        
+        padding-right: 30px;
+        /* padding-top: 30px; */
+        height: 50px;
+    }
+    .ikona
    
 }
