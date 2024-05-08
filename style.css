@@ -32,6 +32,7 @@ h1{
     font-size: 44px;
     font-weight: 300;
     line-height: 1.2;
+    /* width: 450px; */
 }
 .upoutavka {
     font-size: 18px;
@@ -166,33 +167,39 @@ h1{
 
 /*-------------media------*/
 
-/* @media(min-width:540px){
-    
+@media(min-width:540px){
+    h1{
+        width: 450px;
+    }
+    .vlastnosti{
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .vlastnost{
+        flex-basis: calc(100% / 2);
+    }
 
-
-
-
-
-
-} */
+}
 
 
 
 @media(min-width:960px){
+    h1{
+        width: 450px;
+    }
     .uvod{
         padding-inline: 50px;
         padding-top: 50px;
-    }
-    .vlastnosti{
-        /* margin: 50px; */
-        display: flex;
-        flex-wrap: wrap; 
     }
     .paticka{
         padding: 50px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+    }
+    .vlastnosti{
+        display: flex;
+        flex-wrap: wrap; 
     }
     .vlastnost{
         flex-basis: calc(100% / 2);
@@ -217,8 +224,7 @@ h1{
         display: flex;
         align-self: center; 
     } 
-    h1,
-    .upoutavka {
+   .banner-text{
         max-width: 420px;
     }
     .tlacitko-primarni{
@@ -229,15 +235,11 @@ h1{
         margin-bottom: 1.5em;
     }
     .vlastnost {
-        display: flex;
-        align-items: start;
+        display: flex; 
     }
     .vlastnost img{
-        
         padding-right: 30px;
-        /* padding-top: 30px; */
         height: 50px;
     }
-    .ikona
    
 }
