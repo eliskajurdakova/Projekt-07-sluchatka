@@ -174,9 +174,10 @@ h1{
     .vlastnosti{
         display: flex;
         flex-wrap: wrap; 
+        gap: 30px;
     }
     .vlastnost{
-        flex-basis: calc(100% / 2);
+        flex-basis: calc(50% - 30px);
     }
 
 }
@@ -197,13 +198,13 @@ h1{
         flex-direction: row-reverse;
         justify-content: space-between;
     }
-    .vlastnosti{
+    /* .vlastnosti{
         display: flex;
         flex-wrap: wrap; 
     }
     .vlastnost{
         flex-basis: calc(100% / 2);
-    }
+    } */
     .banner {
         display: flex;
     }
